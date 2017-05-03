@@ -2,7 +2,7 @@
 """
 Created on Thu Feb 02 22:35:43 2017
 
-@author: asus
+@author: Siddharth
 """
 
 # -*- coding: utf-8 -*-
@@ -12,20 +12,20 @@ Created on Fri Jan 06 12:05:14 2017
 @author: asus
 """
 
-# Import the necessary package to process data in JSON format
+
 try:
     import json
 except ImportError:
     import simplejson as json
 
-# Import the necessary methods from "twitter" library
+
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '345897530-7MndmcGDFgyE0m4dZWW0XbhtRv8oeUBlbUvoBVFm'
-ACCESS_SECRET = 'FDWwMg0zdWqnG1hbcxUM18gmPGj3DeMZZQYHOXhDWRHtS'
-CONSUMER_KEY = 'w2DwAT2cisfGVhDFMv5fHjwXA'
-CONSUMER_SECRET = '7VzsDseQ9VrIHTpvvTSIaetdHtuX6p2Fh62dBeNE4KL0vckKqb'
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
